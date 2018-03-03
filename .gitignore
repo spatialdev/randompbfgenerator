@@ -1,3 +1,4 @@
 node_modules/*
 downloads/*.tar.gz
+downloads/*.pbf
 config.json

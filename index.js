@@ -1,6 +1,8 @@
 const axios = require('axios');
 const download = require('download');
-const locations = require('./assets/locations');;
+const fs = require('fs');
+const { exec } = require('child_process');
+const locations = require('./assets/locations');
 let config;
 
 // Make sure config file exists
@@ -84,7 +86,7 @@ const pingExportAPIjobs = (jobs) => {
         console.log(`View export - ` + job.osma_link);
 
         // ping jobs api every 10 seconds
-        let ping = setInterval(()=> checkJobStatus(ping,job), 10000);
+        let ping = setInterval(()=> checkJobStatus(ping,job), 15000);
 
     })
 }
@@ -149,14 +151,41 @@ const getBoundsGeojson = (bounds) => {
  * @param downloadUrl
  */
 const writeUrlToDisk = (downloadUrl) => {
+    let filename = `${new Date().valueOf()}.tar.gz`
 
-    download(`${config.exportAPI.url}/${downloadUrl}`, `downloads`, {filename: `${new Date().toISOString()}.tar.gz`})
+    download(`${config.exportAPI.url}/${downloadUrl}`, `downloads`, { filename: filename })
         .then(() => {
             console.log(`Download ${downloadUrl} complete.`);
+
+            unpackTarGz(`downloads/${filename}`);
+
         })
         .catch(error => {
             console.error(`Error downloading ${downloadUrl}. ${error}c`);
         })
+}
+
+/**
+ * Unzip tar into root
+ * @param path
+ */
+const unpackTarGz = (path) => {
+    exec(`tar -xvzf ${path}`, (err, stdout, stderr) => {
+        if (err) {
+            // node couldn't execute the command
+            console.error(err);
+            return;
+        }
+
+        // file housekeeping
+        exec(`mv osm/* downloads/`)
+        exec(`rm manifest.json`)
+        exec(`rm ${path}`)
+
+        // the *entire* stdout and stderr (buffered)
+        console.log(`stdout: ${stdout}`);
+        console.log(`stderr: ${stderr}`);
+    });
 }
 
 
