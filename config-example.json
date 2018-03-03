@@ -1,0 +1,7 @@
+{
+  "exportAPI":{
+    "url": "https://export.hotosm.org",
+    "token": "",
+    "allTagsQuery": "buildings:\n    types:\n        - lines\n        - polygons\n    select:\n        - name\n        - building\n    where: building IS NOT NULL"
+  }
+}

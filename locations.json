@@ -1,0 +1,548 @@
+{
+  "Asia": [
+    {
+      "country": "Russian Fed.",
+      "cities": [
+        {
+          "name": "Moscow",
+          "bounds": [
+            37.431,
+            55.688,
+            37.812,
+            55.818
+          ]
+        }
+      ]
+    },
+    {
+      "country": "United Arab Emirates",
+      "cities": [
+        {
+          "name": "Dubai",
+          "bounds": [
+            54.89045429999999,
+            24.7921359,
+            55.5650393,
+            25.3585607
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Taiwan",
+      "cities": [
+        {
+          "name": "Taipei",
+          "bounds": [
+            121.2826735,
+            24.7900797,
+            121.7300824,
+            25.2443731
+          ]
+        }
+      ]
+    },
+    {
+      "country": "India",
+      "cities": [
+        {
+          "name": "New Delhi",
+          "bounds": [
+            77.07301009999999,
+            28.4041,
+            77.3449601,
+            28.65048
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "cities": [
+        {
+          "name": "Jakarta",
+          "bounds": [
+            106.747,
+            -6.224,
+            106.9,
+            -6.105
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Jordan",
+      "cities": [
+        {
+          "name": "Amman",
+          "bounds": [
+            35.6797295,
+            31.5829089,
+            36.2155321,
+            32.0886118
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Philippines",
+      "cities": [
+        {
+          "name": "Manila",
+          "bounds": [
+            120.932951,
+            14.5539791,
+            121.0261686,
+            14.6390175
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Iran",
+      "cities": [
+        {
+          "name": "Tehran",
+          "bounds": [
+            51.0934209,
+            35.5590784,
+            51.6062163,
+            35.8345498
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Singapore",
+      "cities": [
+        {
+          "name": "Singapore",
+          "bounds": [
+            103.594,
+            1.1496,
+            104.0945001,
+            1.4784001
+          ]
+        }
+      ]
+    }
+  ],
+  "Europe": [
+    {
+      "country": "Spain",
+      "cities": [
+        {
+          "name": "Madrid",
+          "bounds": [
+            -3.794,
+            40.35,
+            -3.568,
+            40.486
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Iceland",
+      "cities": [
+        {
+          "name": "Reykjavik",
+          "bounds": [
+            -21.9865021,
+            64.0898138,
+            -21.7183826,
+            64.1771669
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "cities": [
+        {
+          "name": "Istanbul",
+          "bounds": [
+            28.595554,
+            40.811404,
+            29.4288049,
+            41.199239
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "cities": [
+        {
+          "name": "Copenhagen",
+          "bounds": [
+            12.4533824,
+            55.615441,
+            12.7342654,
+            55.7270937
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Greece",
+      "cities": [
+        {
+          "name": "Athens",
+          "bounds": [
+            23.6869862,
+            37.9488181,
+            23.7896925,
+            38.0328563
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Cyprus",
+      "cities": [
+        {
+          "name": "Nicosia",
+          "bounds": [
+            33.3185077,
+            35.1521879,
+            33.4762967,
+            35.232317
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Georgia",
+      "cities": [
+        {
+          "name": "Tbilisi",
+          "bounds": [
+            44.6600246,
+            41.6210248,
+            45.0176811,
+            41.8438937
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Ukraine",
+      "cities": [
+        {
+          "name": "Kiev",
+          "bounds": [
+            30.302,
+            50.313,
+            30.784,
+            50.555
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Bosnia - Herzegovina",
+      "cities": [
+        {
+          "name": "Sarajevo",
+          "bounds": [
+            18.2487844,
+            43.820974,
+            18.5171986,
+            43.9664726
+          ]
+        }
+      ]
+    }
+  ],
+  "Africa": [
+    {
+      "country": "Algeria",
+      "cities": [
+        {
+          "name": "Algiers",
+          "bounds": [
+            3.0540584,
+            36.7488675,
+            3.0616236,
+            36.7587844
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Botswana",
+      "cities": [
+        {
+          "name": "Gaborone",
+          "bounds": [
+            25.8387927,
+            -24.7120382,
+            26.0222162,
+            -24.5065762
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Egypt",
+      "cities": [
+        {
+          "name": "Cairo",
+          "bounds": [
+            31.2149558,
+            30.0083745,
+            31.3019729,
+            30.1106024
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Ethiopia",
+      "cities": [
+        {
+          "name": "Abuja",
+          "bounds": [
+            7.233123799999999,
+            8.9220428,
+            7.5555897,
+            9.1866247
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Ghana",
+      "cities": [
+        {
+          "name": "Accra",
+          "bounds": [
+            -0.2991199,
+            5.5139869,
+            -0.060339,
+            5.668430499999999
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Rwanda",
+      "cities": [
+        {
+          "name": "Kigali",
+          "bounds": [
+            30.0249481,
+            -2.0237232,
+            30.1841457,
+            -1.8858746
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Nigeria",
+      "cities": [
+        {
+          "name": "Abuja",
+          "bounds": [
+            7.233123799999999,
+            8.9220428,
+            7.5555897,
+            9.1866247
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "cities": [
+        {
+          "name": "Dodoma",
+          "bounds": [
+            35.6933325,
+            -6.2456897,
+            35.8529679,
+            -6.1002055
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Senegal",
+      "cities": [
+        {
+          "name": "Dakar",
+          "bounds": [
+            -17.536581,
+            14.6419347,
+            -17.395069,
+            14.7801142
+          ]
+        }
+      ]
+    }
+  ],
+  "Australia": [
+    {
+      "country": "Australia",
+      "cities": [
+        {
+          "name": "Sydney",
+          "bounds": [
+            150.911,
+            -34.006,
+            151.316,
+            -33.74
+          ]
+        }
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "cities": [
+        {
+          "name": "Wellington",
+          "bounds": [
+            174.613084,
+            -41.3624551,
+            174.9106252,
+            -41.126285
+          ]
+        }
+      ]
+    }
+  ],
+  "North America": [
+    {
+      "country": "Mexico",
+      "cities": [
+        {
+          "name": "Mexico City",
+          "bounds": [
+            -99.3267771,
+            19.1887101,
+            -98.9604482,
+            19.5927571
+          ]
+        }
+      ]
+    }
+  ],
+  "Central America": [
+    {
+      "country": "Panama",
+      "cities": [
+        {
+          "name": "Panama City",
+          "bounds": [
+            -79.5993804,
+            8.903133799999999,
+            -79.3068941,
+            9.2596966
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Nicaragua",
+      "cities": [
+        {
+          "name": "Managua",
+          "bounds": [
+            -86.3918334,
+            12.0199606,
+            -86.1250878,
+            12.1753574
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "cities": [
+        {
+          "name": "Santo Domingo",
+          "bounds": [
+            -70.0196028,
+            18.4125184,
+            -69.8744203,
+            18.5475279
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Martinique",
+      "cities": [
+        {
+          "name": "Fort-de-France5",
+          "bounds": [
+            -61.1036397,
+            14.5897509,
+            -61.033945,
+            14.7076481
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Cuba",
+      "cities": [
+        {
+          "name": "Havana",
+          "bounds": [
+            -82.574873,
+            22.9200574,
+            -82.0911311,
+            23.1813159
+          ]
+        }
+      ]
+    }
+  ],
+  "South America": [
+    {
+      "country": "Ecuador",
+      "cities": [
+        {
+          "name": "Quito",
+          "bounds": [
+            -78.58692169999999,
+            -0.3951614,
+            -78.2741547,
+            0.0219727
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Brazil",
+      "cities": [
+        {
+          "name": "Sao Paulo",
+          "bounds": [
+            -46.745,
+            -23.642,
+            -46.517,
+            -23.477
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Argentina",
+      "cities": [
+        {
+          "name": "Buenos Aires",
+          "bounds": [
+            -58.5314522,
+            -34.7051011,
+            -58.33514470000001,
+            -34.5265464
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "randompbfgenerator",
+  "version": "0.0.1",
+  "description": "randomly selects countries & generators osm.pbf from HOT Export API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Baah",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "download": "^6.2.5",
+    "request": "^2.83.0"
+  }
+}
