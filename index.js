@@ -1,11 +1,11 @@
 const axios = require('axios');
 const download = require('download');
-const locations = require('./locations');;
+const locations = require('./assets/locations');;
 let config;
 
 // Make sure config file exists
 try {
-    config = require('./config');
+    config = require('./config/config');
     // set axios defaults
     axios.defaults.baseURL = config.exportAPI.url;
     axios.defaults.headers.common['Authorization'] = `Bearer ${config.exportAPI.token}`;
