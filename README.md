@@ -10,7 +10,7 @@ The goal of the script is to generate 5-7 `osm.pbf` files (~<25mb) that are repr
 4. Write file to disk
 
 ### How to run
-First, you must add your Export API Token to the config.json file.
+Using the [config-exmaple.json](config/config-example.json) example, create a config/config.json file and add your Export API Token
 Once complete, simply execute
 
 ```bash
