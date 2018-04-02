@@ -1,6 +1,20 @@
 {
   "Asia": [
     {
+      "country": "Macau",
+      "cities": [
+        {
+          "name": "Macau",
+          "bounds": [
+            22.106,
+            113.527,
+            22.219,
+            113.706
+          ]
+        }
+      ]
+    },
+    {
       "country": "Russian Fed.",
       "cities": [
         {
